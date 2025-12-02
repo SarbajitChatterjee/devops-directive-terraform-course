@@ -12,7 +12,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "terraform_state" {
-  bucket        = "my-devops-directive-tf-state"
+  bucket        = "my-learning-directive-tf-state"
   force_destroy = true
   versioning {
     enabled     = true
